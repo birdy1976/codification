@@ -1,0 +1,10 @@
+#!/usr/bin/php
+<?php
+	echo 'Use your cron to meditate at every sunrise! ';
+	echo 'Close your eyes. ';
+	for ($i = 0; $i < 8*60; $i++) {
+		// sleep(2);
+		echo ($i%2 == 1) ? 'Inhale… ' : 'Exhale… ';
+	}
+	echo 'Open your eyes. Have a nice day!'.PHP_EOL;
+?>
